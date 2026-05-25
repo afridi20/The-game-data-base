@@ -1,0 +1,98 @@
+
+body{
+     cursor: context-menu;
+     overflow-x: hidden;
+     background-color: black;
+     color: white;
+}
+
+
+#want-to-play,#played,#playing{
+    display: flex;
+    gap:20px ;
+   border-bottom: 4px double #333;
+    border-top: 4px double #999;
+    padding: 10px 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    height: 350px;
+    align-items: center;
+   
+    
+    
+}
+#want-to-play div:hover, #played div:hover,#playing div:hover{
+   transform: scale(1.1);
+    
+}
+
+.cardbody{
+    height: 70px;
+    background-color: black;
+    color: white;
+
+}
+.Rowstyling{
+    width:300px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Rowstyling img{
+    width: 300px;
+    height:200px ;
+}
+h1{
+    margin-top: 40px;
+}
+
+#navbutton {
+    background-color: #191970;
+}
+
+#navbutton a{
+    margin:14px
+    
+
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 270px;
+    background-color:#191970;
+    
+    box-shadow: 10px 10px 5px lightblue;
+    width: 1200px;
+    height: 350px;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+    
+}
+#stats{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#prof-pic{
+  height: 300px;
+  width: 200px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+ background-color: #191970;
+}
+#prof-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+

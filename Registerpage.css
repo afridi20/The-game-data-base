@@ -1,0 +1,45 @@
+body{
+    overflow: hidden;
+}
+
+#logincontainer{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+   
+}
+#logincontainer div{
+    display: flex;
+    flex-direction: column;
+    background-color:#F0F8FF;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px lightblue;
+    width: 400px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+#logincontainer input {
+   margin: 10px;
+   width: 300px;
+   height: auto;
+}
+
+#logincontainer button{
+   margin: 10px;
+   width: 300px;
+   height: 30px;
+}
+
+#logincontainer div h1{
+  cursor: context-menu;
+}
+
+
+
