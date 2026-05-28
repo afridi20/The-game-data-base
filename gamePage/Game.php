@@ -155,7 +155,7 @@ if ($_POST) {
        
         <?php if($isinwantlist): ?>
 
-            <button disabled style="color:green;">&#x2713; Want to play</button>
+            <button disabled style="color:green;"s>&#x2713; Want to play</button>
 
         <?php else: ?>
 
@@ -191,7 +191,7 @@ if ($_POST) {
 
         <?php else: ?>
          
-            <button hidden>Lagt i listan</button>
+            <button hidden></button>
         
         <?php endif; ?>
 
